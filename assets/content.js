@@ -2,7 +2,7 @@ window.PORTFOLIO_CONTENT = {
   site: {
     name: "Giacomo Ponzi",
     role: "Game Systems & Economy Designer",
-    email: "hello@example.com"
+    email: "giacomo.ponzi91@gmail.com"
   },
   projects: [
     {
@@ -10,17 +10,19 @@ window.PORTFOLIO_CONTENT = {
       title: "Knowledgehook",
       role: "Game Designer",
       tags: ["Systems", "Economy", "Multiplayer"],
-      summary: "Live educational platform work focused on progression mechanics, reward loops, and data-informed storefront balancing.",
-      detail: "Placeholder case-study content. Add the project context, your responsibilities, the systems you designed, and the impact of the work here.",
+      summary: "Designed and shipped Zone Rush, a MOBA-style mode, and helped overhaul progression, rewards, and a live tri-currency economy for a platform serving 50,000+ daily students.",
+      detail: "At Knowledgehook, I design player-facing systems for a live educational game platform used by more than five million students globally. My work spans gameplay systems, progression, reward loops, multiplayer features, economy balancing, design documentation, and SQL-informed iteration.",
+      image: "https://static.wixstatic.com/media/9808ff_f21af59723d04c0a99f554aac330d438f000.jpg/v1/fill/w_1042,h_586,q_90/9808ff_f21af59723d04c0a99f554aac330d438f000.jpg",
       accent: "mint"
     },
     {
       id: "amazon-games",
       title: "Amazon Games",
       role: "Game Design Analyst",
-      tags: ["3C", "Combat", "UX Research"],
-      summary: "Gameplay, combat, camera, and controls analysis across AAA projects.",
-      detail: "Placeholder project content. Use this page to present the question you explored, your analysis, and the recommendations that followed.",
+      tags: ["Gameplay", "3C", "UX Research"],
+      summary: "Gameplay, combat, camera, and controls analysis across New World, Throne & Liberty, an upcoming Tomb Raider title, and King of Meat.",
+      detail: "As a Game Design Analyst at Amazon Games, I created gameplay breakdowns and 3C evaluations, partnered with global design and UX teams, and authored reports that informed direction, pacing, and mechanic adjustments.",
+      image: "https://static.wixstatic.com/media/9808ff_6fa3aafea9114ea8b4b674ef1644de3a~mv2.jpg/v1/fill/w_587,h_586,q_90,enc_avif,quality_auto/9808ff_6fa3aafea9114ea8b4b674ef1644de3a~mv2.jpg",
       accent: "orange"
     },
     {
@@ -28,17 +30,19 @@ window.PORTFOLIO_CONTENT = {
       title: "Cells at War",
       role: "Lead Game Designer",
       tags: ["Educational Games", "Unity", "Leadership"],
-      summary: "A strategy-driven educational game that turns complex biological concepts into meaningful player decisions.",
-      detail: "Placeholder project content. Describe the game’s core loop, your collaboration, and how learning goals shaped the design.",
+      summary: "Led a multidisciplinary team on an educational game that simulates Pompe disease progression through interactive gameplay.",
+      detail: "At George Brown College, I led the game design process for Cells at War, using diagrams and documentation to help the team represent Pompe disease stages accurately through play.",
+      image: "https://static.wixstatic.com/media/9808ff_801de57bea8345e3bc22f83a1e60b0e9~mv2.jpg/v1/fill/w_586,h_586,fp_0.53_0.5,q_90,enc_avif,quality_auto/9808ff_801de57bea8345e3bc22f83a1e60b0e9~mv2.jpg",
       accent: "blue"
     },
     {
       id: "onkan",
       title: "Onkan",
-      role: "Economy & Systems Designer",
-      tags: ["Balancing", "Progression", "Economy"],
-      summary: "Core economic balancing loops and progression milestones for a systems-driven experience.",
-      detail: "Placeholder project content. Replace this with approved information once the project can be discussed publicly.",
+      role: "Independent Game Designer",
+      tags: ["Prototype", "Systems", "Design"],
+      summary: "An independent project page reserved for work that is ready to share publicly.",
+      detail: "This page is intentionally kept concise until the project’s public case-study material is ready. It will eventually cover the design question, process, and outcome.",
+      image: "https://static.wixstatic.com/media/9808ff_09ae46a1b074450fa0657c04b1d4f78a~mv2.jpg/v1/fill/w_587,h_586,q_90,enc_avif,quality_auto/9808ff_09ae46a1b074450fa0657c04b1d4f78a~mv2.jpg",
       accent: "lilac"
     }
   ],
