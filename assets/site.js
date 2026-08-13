@@ -15,7 +15,7 @@
 
   const projectUrl = (project) => path(`portfolio/${project.id}.html`);
   const postUrl = (post) => path(`blog/${post.id}.html`);
-  const projectCard = (project) => `<a class="content-card content-card--${project.accent}" href="${projectUrl(project)}"><span class="content-card__number">${String(content.projects.indexOf(project) + 1).padStart(2, "0")}</span><div><p class="eyebrow">${project.tags.slice(0, 2).join(" · ")}</p><h3>${project.title}</h3><p class="content-card__role">${project.role}</p></div><span class="content-card__arrow" aria-hidden="true">↗</span></a>`;
+  const projectCard = (project) => `<a class="content-card content-card--${project.accent}" href="${projectUrl(project)}"${project.image ? ` style="--project-image:url('${project.image}')"` : ""}><span class="content-card__number">${String(content.projects.indexOf(project) + 1).padStart(2, "0")}</span><div><p class="eyebrow">${project.tags.slice(0, 2).join(" · ")}</p><h3>${project.title}</h3><p class="content-card__role">${project.role}</p></div><span class="content-card__arrow" aria-hidden="true">↗</span></a>`;
   const postCard = (post) => `<a class="content-card content-card--${post.accent}" href="${postUrl(post)}"><span class="content-card__number">${post.type}</span><div><p class="eyebrow">${post.date}</p><h3>${post.title}</h3><p class="content-card__role">${post.summary}</p></div><span class="content-card__arrow" aria-hidden="true">↗</span></a>`;
 
   document.querySelectorAll('[data-render="featured-projects"]').forEach((element) => { element.innerHTML = content.projects.slice(0, 3).map(projectCard).join(""); });
